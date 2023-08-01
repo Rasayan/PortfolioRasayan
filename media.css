@@ -1,0 +1,322 @@
+@media (max-width: 400px) {
+body {
+    padding-top: 4em;
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 100%;
+    height: 10vh;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-toggler {
+    position: relative;
+    left: 30%;
+    right: 1px;
+    margin: 0 auto;
+}
+
+.navbar-collapse {
+    position: absolute;
+    z-index: 999;
+    top: 5em;
+    right: 4em;
+}
+
+.navbar-collapse {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.navbarcont {
+    padding: 0;
+}
+
+.headList {
+    gap: 0.6em;
+    display: flex;
+    flex-direction: row;
+}
+
+.headOptions{
+    margin: 0 1.2em 0 1.1em;
+}
+
+.headOptions li a {
+    color: rgb(141, 141, 141);
+    font-size: 1em;
+    font-weight: 700;
+    padding: 1px 0;
+    margin-left: 10%;
+}
+
+.headOptions li a:hover {
+    background: none;
+    color: #1d3557;
+    padding: inherit;
+    border-radius: 10px;
+}
+
+.maxlogo {
+    font-size: 1.5em;
+}
+
+
+.frontView {
+    padding: 2em 0.2em 0 0.2em;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin-left: 0;
+    flex-direction: column;
+}
+
+.iconLinks {
+    width: 90%;
+    height: 20vh;
+    margin-bottom: 0;
+    flex-direction: row;
+}
+
+.iconLinks li a {
+    font-size: 2em;
+    margin-left: 1em;
+    
+}
+
+.iconLinks li:first-child a {
+    margin-left: 0;
+    
+}
+
+.description {
+    width: 20em;
+    height: 50vh;
+}
+
+.domainHeading {
+    font-size: 2.5em;
+    margin: 0 0 0.5em 0;
+}
+
+.domainSubHeading {
+    font-size: 1.5em;
+    
+}
+
+.domainDescription {
+    font-size: 1em;
+    margin-bottom: 28px;
+}
+
+.domainButton a {
+    color: #1d3557;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+}
+
+.portfolioPicture {
+    display: none;
+    visibility: hidden;
+}
+
+.aboutSection {
+    padding: 0.5em 0 2em 0;
+    margin: 20% 2% 0 2%;
+    width: 96%;
+    height: 180vh;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.aboutPicture {
+    width: 20em;
+    height: 25em;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px #1d3557 solid;
+}
+
+.aboutDescription {
+    width: 22em;
+}
+
+.aboutHeading {
+    width: 60%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.9em;
+    color: #1d3557;
+}
+
+#firstPara {
+    margin: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: #1d3557;
+}
+
+#secondPara {
+    margin: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: #1d3557;
+}
+
+#horiLine {
+    width: 100%;
+    color: #000;
+    border: 1px solid black;
+}
+
+.skillSection {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#Skills {
+    margin: 2em 0 2em 0;
+}
+
+#skillHeading {
+    margin-left: 10px;
+}
+
+.skill1Head {
+    width: 100%;
+    padding-left: 1em;
+}
+
+.frontSkills {
+    width: 23em;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.react {
+    width: 3em;
+    height: 3em;
+}
+
+.css {
+    width: 2.7em;
+    height: 3em;
+}
+
+.js {
+    width: 5em;
+    height: 3em;
+}
+
+.bootstrap {
+    width: 3.3em;
+    height: 2.5em;
+    margin-bottom: 1em;
+}
+
+.skill2Head {
+    width: 100%;
+    padding-left: 1em;
+}
+
+.backSkills {
+    max-width: 70%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.node {
+    width: 2.4em;
+    height: 3em;
+}
+
+.java {
+    width: 5em;
+    height: 3.5em;
+}
+
+.npm {
+    width: 4em;
+    height: 3em;
+}
+
+.contactMe {
+    margin: 2em 1em;
+    width: 92%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    background: #a2d2ff;
+    border-radius: 10px;
+}
+
+.phoneNo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHead {
+    font-size: 1em;
+}
+
+.contactMe p {
+    font-size: 0.8em;
+}
+
+.contactMe {
+    color: #1d3557;
+}
+
+.contactIcon ion-icon {
+    font-size: 1.2em;
+}
+
+#contactTimings {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.eMail {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mailDescription {
+    text-align: center;
+    line-height: 2em;
+}
+
+.contactButton {
+    padding: 13px 30px;
+    border-radius: 10px;
+    background: #f1faee;
+    border: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.contactButton a {
+    color: #1d3557;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif
+}
+}
